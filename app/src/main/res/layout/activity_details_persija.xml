@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/awan"
+    android:orientation="vertical"
+    tools:context="camp.bso.inf.myapplication.DetailsPersija">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/persija"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="I AM PERSIJA"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROFIL : Persija (singkatan dari Persatuan Sepak Bola Indonesia Jakarta) adalah sebuah klub sepak bola Indonesia yang berbasis di Jakarta. Persija saat ini berlaga di Liga Indonesia.
+Persija didirikan pada 28 November 1928, tepat sebulan setelah Sumpah Pemuda, dengan cikal bakal bernama Voetbalbond Indonesische Jacatra (VIJ). VIJ merupakan salah satu klub yang ikut mendirikan Persatuan sepak bola Seluruh Indonesia (PSSI) dengan keikutsertaan wakil VIJ, Mr. Soekardi dalam pembentukan PSSI di Societeit Hadiprojo Yogyakarta, Sabtu-19 April 1930."
+            />
+
+        <Button
+            android:id="@+id/maps"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="LOKASI LAPANGAN"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/sumber"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="SUMBER"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

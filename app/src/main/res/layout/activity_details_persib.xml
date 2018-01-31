@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/awan"
+    android:orientation="vertical"
+    tools:context="camp.bso.inf.myapplication.DetailsPersib">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_weight="0"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/persib" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            >
+            <br.com.bloder.magic.view.MagicButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/magic_button_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:magic_button_size="40dp"
+                app:button_icon="@drawable/facebook"
+                app:button_icon_height="15dp"
+                app:button_icon_width="15dp"
+                app:hide_text="FACEBOOK"
+                app:expandable_area_color="#200cb7"
+                app:hide_text_size="5dp"
+                app:icon_button_color="#375dda"
+                />
+            <br.com.bloder.magic.view.MagicButton
+                android:id="@+id/magic_button_twitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:magic_button_size="40dp"
+                app:button_icon="@drawable/twitter"
+                app:button_icon_height="15dp"
+                app:button_icon_width="15dp"
+                app:hide_text="TWITTER"
+                app:expandable_area_color="#200cb7"
+                app:hide_text_size="5dp"
+                app:icon_button_color="#375dda"
+                />
+            <br.com.bloder.magic.view.MagicButton
+                android:id="@+id/magic_button_instagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:magic_button_size="40dp"
+                app:button_icon="@drawable/instagram"
+                app:button_icon_height="15dp"
+                app:button_icon_width="15dp"
+                app:hide_text="INSTAGRAM"
+                app:expandable_area_color="#200cb7"
+                app:hide_text_size="5dp"
+                app:icon_button_color="#375dda"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="I AM PERSIB" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profil : Persib (Persatuan Sepak Bola Indonesia Bandung) adalah sebuah tim sepak bola Indonesia terbesar yang berdiri pada 14 Maret 1933, klub ini berbasis di Bandung, Jawa Barat. Persib saat ini bermain di Liga Super Indonesia. Julukan mereka adalah Maung Bandung dan Pangeran Biru. Sponsor utama dan terbesar masih di pegang Indofood dan apparel jersey yang terbaru adalah Sportama"
+            android:textColor="@color/biru"
+            android:textSize="14sp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/maps"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="LOKASI LAPANGAN" />
+
+            <Button
+                android:id="@+id/sumber"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="SUMBER" />
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:onClick="back"
+                android:text="BACK" />
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
