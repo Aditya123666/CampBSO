@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/awan"
+    android:background="@drawable/back1"
     android:orientation="vertical"
     tools:context="camp.bso.inf.myapplication.DetailsPersib">
 
@@ -36,6 +36,7 @@
             android:layout_weight="2"
             >
             <br.com.bloder.magic.view.MagicButton
+                android:onClick="onFacebook"
                 android:layout_marginTop="10dp"
                 android:id="@+id/magic_button_facebook"
                 android:layout_width="wrap_content"
@@ -94,13 +95,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
+            android:textColor="#fff"
             android:text="I AM PERSIB" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Profil : Persib (Persatuan Sepak Bola Indonesia Bandung) adalah sebuah tim sepak bola Indonesia terbesar yang berdiri pada 14 Maret 1933, klub ini berbasis di Bandung, Jawa Barat. Persib saat ini bermain di Liga Super Indonesia. Julukan mereka adalah Maung Bandung dan Pangeran Biru. Sponsor utama dan terbesar masih di pegang Indofood dan apparel jersey yang terbaru adalah Sportama"
-            android:textColor="@color/biru"
+            android:textColor="#fff"
             android:textSize="14sp" />
 
 

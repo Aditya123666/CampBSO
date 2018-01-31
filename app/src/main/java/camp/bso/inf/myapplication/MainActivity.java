@@ -19,12 +19,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btnpersija,btnpersib,btnberita;
+        Button btnpersija,btnpersib,btnberita,btnsplash;
 
 
         btnberita = findViewById(R.id.berita);
         btnpersija = findViewById(R.id.btn_detailspersija);
         btnpersib = findViewById(R.id.btn_detailspersib);
+        btnsplash = findViewById(R.id.splashs);
 
         btnpersib.setOnClickListener(new View.OnClickListener() {
             @Override

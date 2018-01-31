@@ -6,8 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+
 
 import br.com.bloder.magic.view.MagicButton;
+
+import static android.widget.Toast.*;
 
 public class DetailsPersib extends AppCompatActivity {
 
@@ -74,6 +78,8 @@ public class DetailsPersib extends AppCompatActivity {
                 String urllink = "https://id.wikipedia.org/wiki/Persib_Bandung";
                 browserIntent.setData(Uri.parse(urllink));
                 startActivity(browserIntent);
+                makeText(getApplicationContext(),"INSTAGRAM", LENGTH_SHORT).show();
+
             }
         });
         btninstagram.setOnClickListener(new View.OnClickListener() {
@@ -83,9 +89,18 @@ public class DetailsPersib extends AppCompatActivity {
                 String urllink = "https://id.wikipedia.org/wiki/Persib_Bandung";
                 browserIntent.setData(Uri.parse(urllink));
                 startActivity(browserIntent);
+
             }
         });
 
         //TUTUP BUTTON SOSMED
+
+    }
+
+    public void onFaceebook(){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW);
+        String urllink = "https://id.wikipedia.org/wiki/Persib_Bandung";
+        browserIntent.setData(Uri.parse(urllink));
+        startActivity(browserIntent);
     }
 }

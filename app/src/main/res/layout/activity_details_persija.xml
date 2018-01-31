@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/awan"
+    android:background="@drawable/back1"
     android:orientation="vertical"
     tools:context="camp.bso.inf.myapplication.DetailsPersija">
     <LinearLayout
@@ -25,8 +25,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="I AM PERSIJA"
+            android:textColor="#fff"
             />
         <TextView
+            android:textColor="#fff"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="PROFIL : Persija (singkatan dari Persatuan Sepak Bola Indonesia Jakarta) adalah sebuah klub sepak bola Indonesia yang berbasis di Jakarta. Persija saat ini berlaga di Liga Indonesia.
@@ -42,6 +44,7 @@ Persija didirikan pada 28 November 1928, tepat sebulan setelah Sumpah Pemuda, de
             />
 
         <Button
+            android:background="@color/awan"
             android:id="@+id/sumber"
             android:layout_width="200dp"
             android:layout_gravity="center"

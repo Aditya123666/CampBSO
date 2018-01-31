@@ -25,5 +25,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    implementation 'com.github.bloder:magic:1.1'
+    implementation 'com.github.bloder:magic:1.1' //SUMBER : https://android-arsenal.com/details/1/3988 DAN https://www.youtube.com/watch?v=O0kbp8Qxqe8&t=4s
+
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
 }

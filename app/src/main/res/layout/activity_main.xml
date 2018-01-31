@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/awan"
+    android:background="@drawable/back1"
     android:orientation="vertical"
     tools:context="camp.bso.inf.myapplication.MainActivity">
     <LinearLayout
@@ -79,7 +79,7 @@
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:orientation="horizontal"
@@ -196,6 +196,12 @@
             android:layout_height="wrap_content"
             android:text="BERITA"
             android:onClick="berita"
+            />
+        <Button
+            android:id="@+id/splashs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPLASH SCREEN"
             />
 
     </LinearLayout>
