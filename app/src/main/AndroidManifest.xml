@@ -18,8 +18,12 @@
         </activity>
         <activity android:name=".DetailsPersib" />
         <activity android:name=".DetailsPersija" />
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".RecycleView"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RecycleView" />
+        <activity
+            android:name=".NavBarPertandingan"
+            android:label="@string/title_activity_nav_bar_pertandingan"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

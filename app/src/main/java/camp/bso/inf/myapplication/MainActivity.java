@@ -35,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        btnsplash.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,SplashScreen.class);
+                startActivity(i);
+
+            }
+        });
         btnpersija.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

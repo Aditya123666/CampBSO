@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/pink"
+        >
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:id="@+id/wordhome"
+            style="@style/tanding_title"
+            android:text="H-"
+            />
+
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/word1"
+            style="@style/tanding_title"
+            android:text="TIM 1"
+            />
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/word"
+            style="@style/tanding_title"
+            android:text="VS"
+            />
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/word2"
+            style="@style/tanding_title"
+            android:text="TIM 2"
+            />
+        <TextView
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:id="@+id/wordaway"
+            style="@style/tanding_title"
+            android:gravity="right"
+            android:text="-A"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
