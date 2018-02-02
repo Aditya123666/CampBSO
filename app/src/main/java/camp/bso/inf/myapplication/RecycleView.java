@@ -15,10 +15,12 @@ public class RecycleView extends AppCompatActivity {
 
     private final LinkedList<String> mWordList1 = new LinkedList<>();
     private final LinkedList<String> mWordList2 = new LinkedList<>();
-    private int mCount = 0;
+
+
     String timkita[] = {"Persib", "Persib", "Persib"};
     String timlawan[] = {"PSM", "Persija", "Persipura"};
 
+    private TeamListOpenHelper mDB;
     private RecyclerView mRecyclerView;
     private WordListAdapter mAdapter;
 
@@ -28,6 +30,8 @@ public class RecycleView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycle_view);
         Button btnacity;
+
+        mDB = new TeamListOpenHelper(this);
 
         btnacity = findViewById(R.id.kemain);
 
@@ -43,15 +47,15 @@ public class RecycleView extends AppCompatActivity {
         for (int i = 0; i < 3; i++) {
             mWordList1.addLast(timkita[i]);
             mWordList2.addLast(timlawan[i]);
-            //Log.d("WordList1:", mWordList1.getLast());
-            //Log.d("WordList2:", mWordList2.getLast());
+           // Log.d("WordList1:", mWordList1.getLast());
+            ///Log.d("WordList2:", mWordList2.getLast());
         }
 
         //	Get	a	handle	to	the	RecyclerView.
         mRecyclerView = (RecyclerView) findViewById(R.id.rv);
 
         //	Create	an	adapter	and	supply	the	data	to	be	displayed.
-        mAdapter = new WordListAdapter(this, mWordList1,mWordList2);
+        mAdapter = new WordListAdapter(this, mDB);
 
         //	Connect	the	adapter	with	the	RecyclerView.
         mRecyclerView.setAdapter(mAdapter);

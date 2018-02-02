@@ -85,11 +85,17 @@ public class NavBarPertandingan extends AppCompatActivity
             // Handle the camera action
             Intent i = new Intent(NavBarPertandingan.this,RecycleView.class);
             startActivity(i);
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.ttgapp) {
+            Intent i = new Intent(NavBarPertandingan.this,TentangApp.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.ttgsaya) {
+            Intent i = new Intent(NavBarPertandingan.this,TentangSaya.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.score) {
+            Intent i = new Intent(NavBarPertandingan.this,MainActivity.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_share) {
 

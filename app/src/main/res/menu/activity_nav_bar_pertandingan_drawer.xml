@@ -9,17 +9,17 @@
             android:icon="@drawable/ic_view_list_pertandingan"
             android:title="List Pertandingan" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/ttgapp"
+            android:icon="@drawable/about"
+            android:title="Tentang App" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/ttgsaya"
+            android:icon="@drawable/about"
+            android:title="Tentang Saya" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/score"
+            android:icon="@drawable/score"
+            android:title="Score Board" />
     </group>
 
     <item android:title="Communicate">

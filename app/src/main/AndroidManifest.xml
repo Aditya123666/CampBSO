@@ -23,7 +23,9 @@
         <activity
             android:name=".NavBarPertandingan"
             android:label="@string/title_activity_nav_bar_pertandingan"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TentangApp" />
+        <activity android:name=".TentangSaya"></activity>
     </application>
 
 </manifest>
